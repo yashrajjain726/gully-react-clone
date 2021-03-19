@@ -8,12 +8,12 @@ import Tabs from './tabs'
 import BottomNavigation from './bottomNavigation'       
 export default function FixedContainer() {
   return (
-    <div className="backgroundSection">
+   
         <React.Fragment>
       <CssBaseline />
       
       <div className="playSection">
-      <Container>
+      <Container className="container" inline>
           <AppBar/>
           <Stepper/>
           <Tabs/>
@@ -25,6 +25,5 @@ export default function FixedContainer() {
       </Container>
       </div>
     </React.Fragment>
-    </div>
   );
 }

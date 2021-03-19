@@ -15,8 +15,12 @@ code {
     monospace;
 }
 .playSection{
-  width: 76vh;
+  width:35%;
 }
 .mainPlaySection{
   background-color: white;
+}
+.container{
+  margin: 0;
+  padding:0 important;
 }

@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
+import img1 from '../img/img1.png'
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -36,7 +37,7 @@ export default function ComplexGrid() {
         <Grid container spacing={2}>
           <Grid item>
             <ButtonBase className={classes.image}>
-              <img className={classes.img} alt="img1" src="../img/img1.png" />
+              <img className={classes.img} alt="img1" src={img1} />
             </ButtonBase>
           </Grid>
           <Grid item xs={12} sm container>
