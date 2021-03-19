@@ -5,8 +5,7 @@ import Container from '@material-ui/core/Container';
 import AppBar from './appBar'
 import Stepper from './stepper'
 import Tabs from './tabs'
-import BottomNavigation from './bottomNavigation'
-import PlayButton from './playButton'
+import BottomNavigation from './bottomNavigation'       
 export default function FixedContainer() {
   return (
     <div className="backgroundSection">
@@ -14,11 +13,12 @@ export default function FixedContainer() {
       <CssBaseline />
       
       <div className="playSection">
-      <Container fixed>
+      <Container>
           <AppBar/>
           <Stepper/>
-          <PlayButton/>
           <Tabs/>
+            
+         
           
         <BottomNavigation/>
           

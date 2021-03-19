@@ -4,8 +4,8 @@ import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-import MenuIcon from '@material-ui/icons/Menu';
-import SearchIcon from '@material-ui/icons/Search';
+import NotificationsIcon from '@material-ui/icons/Notifications';
+import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -63,14 +63,14 @@ export default function SearchAppBar() {
             color="inherit"
             aria-label="open drawer"
           >
-            <MenuIcon />
+            <ArrowBackIosIcon/>
           </IconButton>
-          <Typography className={classes.title} variant="h6" noWrap>
+          <Typography className={classes.title} variant="h6" align="center" noWrap>
             Home
           </Typography>
           <div className={classes.search}>
             
-              <SearchIcon />
+              <NotificationsIcon/>
           </div>
         </Toolbar>
       </AppBar>

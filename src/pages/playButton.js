@@ -5,8 +5,8 @@ import Button from '@material-ui/core/Button';
 export default function DisableElevation() {
   return (
     <ButtonGroup disableElevation variant="contained" color="primary">
-      <Button>Live</Button>
-      <Button>Replay</Button>
+      <Button size="large">Live</Button>
+      <Button size="large"  >Replay</Button>
     </ButtonGroup>
   );
 }
