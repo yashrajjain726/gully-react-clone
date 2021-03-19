@@ -96,7 +96,6 @@ export default function FullWidthTabs() {
         <MatchDetails/>
         <MatchDetails/>
          <MatchDetails/>
-        <MatchDetails/>
         </TabPanel>
       </SwipeableViews>
     </div>
