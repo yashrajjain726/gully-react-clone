@@ -1,8 +1,9 @@
-import MainPage from './pages/main'
+
+import MatchTicket from './pages/matchContainer'
 function App() {
   return (
     <div className="App">
-      <MainPage/>
+      <MatchTicket/>
     </div>
   );
 }

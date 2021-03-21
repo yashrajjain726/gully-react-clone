@@ -16,6 +16,7 @@ code {
 }
 .playSection{
   width:35%;
+  
 }
 .mainPlaySection{
   background-color: white;
@@ -23,4 +24,7 @@ code {
 .container{
   margin: 0;
   padding:0 important;
+}
+.optionPanelSection{
+  background-color: white;
 }
