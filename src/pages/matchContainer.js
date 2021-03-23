@@ -17,6 +17,7 @@ export default function FixedContainer(){
           <Stepper/>
           <center><MatchCard/></center>
           <Tabs/>
+          
         <BottomNavigation/>
           
       </Container>

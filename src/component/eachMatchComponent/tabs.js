@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import OptionPanel from './optionPanel'
 import RadioOption from './radioOption'
-
+import ProgressIndicator from '../eachMatchComponent/progressIndicator'
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -62,10 +62,10 @@ export default function SimpleTabs() {
       <AppBar position="static">
         <Tabs value={value} onChange={handleChange} tabItemContainerStyle={{width:'10px'}}>
           <Tab label="Row 1" {...a11yProps(0)} />
-          <Tab label="Row 2" {...a11yProps(1)}/>
-          <Tab label="Row 3" {...a11yProps(2)} />
-          <Tab label="Row 4" {...a11yProps(3)}  />
-          <Tab label ="Bails"{...a11yProps(4)}/>
+          <Tab label="Row 2" {...a11yProps(1)}disabled/>
+          <Tab label="Row 3" {...a11yProps(2)} disabled/>
+          <Tab label="Row 4" {...a11yProps(3)}disabled />
+          <Tab label ="Bails"{...a11yProps(4)}disabled/>
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
@@ -75,6 +75,7 @@ export default function SimpleTabs() {
           <OptionPanel/>
           <RadioOption/>
           <OptionPanel/>
+          <ProgressIndicator/>
       </TabPanel>
       <TabPanel value={value} index={1} >
         
@@ -83,6 +84,7 @@ export default function SimpleTabs() {
           <OptionPanel/>
           <RadioOption/>
           <OptionPanel/>
+          <ProgressIndicator/>
       </TabPanel>
       <TabPanel value={value} index={2}>
         
@@ -91,6 +93,7 @@ export default function SimpleTabs() {
           <OptionPanel/>
           <RadioOption/>
           <OptionPanel/>
+          <ProgressIndicator/>
       </TabPanel>
        <TabPanel value={value} index={3}>
          
@@ -99,6 +102,7 @@ export default function SimpleTabs() {
           <OptionPanel/>
           <RadioOption/>
           <OptionPanel/>
+          <ProgressIndicator/>
       </TabPanel>
       <TabPanel value={value} index={4}>
         
@@ -107,6 +111,7 @@ export default function SimpleTabs() {
           <OptionPanel/>
           <RadioOption/>
           <OptionPanel/>
+          <ProgressIndicator/>
       </TabPanel>
     </div>
   );
