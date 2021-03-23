@@ -1,16 +1,18 @@
 import MainPage from './pages/MainPlaySection'
-// import MatchTicket from './pages/matchContainer'
-import {BrowserRouter as Router,Route } from 'react-router-dom';
+import MatchContainer from './pages/matchContainer'
+import {BrowserRouter as Router,Route ,Switch} from 'react-router-dom';
 function App() {
   return (
     <Router>
-    <div className="App">
-      <MainPage/>
-    </div>
+      <Switch>
+      <Route exact path="/"component={MainPage}/>
+      <Route exact path='/matchDetails'component={MatchContainer}/>
+      </Switch>
+   
     </Router>
   );
 }
-<Route exact path="/"><MainPage/></Route>
+
 
 
 export default App;

@@ -167,7 +167,7 @@ export default function PrimarySearchAppBar() {
     <div className={classes.grow}>
       <AppBar position="static">
         <Toolbar>
-            <ArrowBackIosIcon/>
+            <a href='/'><ArrowBackIosIcon/></a>
 
           <Typography className={classes.title} variant="h6" noWrap>
             Create Cricket Ticket

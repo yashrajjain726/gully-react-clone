@@ -6,7 +6,7 @@ import Typography from "@material-ui/core/Typography";
 import ButtonBase from "@material-ui/core/ButtonBase";
 import img4 from "../../img/img4.png";
 import img2 from "../../img/img3.png";
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Button } from '@material-ui/core';
 import MatchContainer from '../../pages/matchContainer'
@@ -47,11 +47,13 @@ export default function ComplexGrid() {
           </Grid>
           <Grid item xs={12} sm container>
             <Grid item xs container direction="column" spacing={2}>
-             <Button >
-               <Link to="/matchDetails">
+             <Button>
+             <a href='/matchDetails'>
                 <Grid item xs >
                   <Typography gutterBottom variant="subtitle1">
+                  
                     [T20] Afganishtan vs Zimbawae in UAE, 2021
+                                    
                   </Typography>
                   <Typography variant="body2" gutterBottom>
                     Afganishtan vs Zimbawae
@@ -60,8 +62,8 @@ export default function ComplexGrid() {
                     21 Hours 51 Minutes
                   </Typography>
                 </Grid>
-                </Link>
-                </Button>
+                </a>
+              </Button>
             </Grid>
             <Grid item>
               <ButtonBase className={classes.image}>

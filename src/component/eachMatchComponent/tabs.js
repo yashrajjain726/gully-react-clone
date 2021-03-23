@@ -60,12 +60,12 @@ export default function SimpleTabs() {
   return (
     <div className={classes.root}>
       <AppBar position="static">
-        <Tabs value={value} onChange={handleChange} tabItemContainerStyle={{width:'15px'}}>
+        <Tabs value={value} onChange={handleChange} tabItemContainerStyle={{width:'10px'}}>
           <Tab label="Row 1" {...a11yProps(0)} />
-          <Tab label="Row 2" {...a11yProps(1)} disabled/>
-          <Tab label="Row 3" {...a11yProps(2)} disabled/>
-          <Tab label="Row 4" {...a11yProps(3)} disabled />
-          <Tab label ="Bails"{...a11yProps(4)} disabled/>
+          <Tab label="Row 2" {...a11yProps(1)}/>
+          <Tab label="Row 3" {...a11yProps(2)} />
+          <Tab label="Row 4" {...a11yProps(3)}  />
+          <Tab label ="Bails"{...a11yProps(4)}/>
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
