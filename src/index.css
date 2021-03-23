@@ -25,6 +25,7 @@ code {
   margin: 0;
   padding:0 important;
 }
-.optionPanelSection{
-  background-color: white;
+.radioOption{
+  width: 450px;
+ align-items: center;
 }

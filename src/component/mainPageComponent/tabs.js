@@ -10,6 +10,7 @@ import Box from '@material-ui/core/Box';
 import MatchDetails from './matchDetails'
 import PlayButton from './playButton'
 
+
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -63,6 +64,7 @@ export default function FullWidthTabs() {
   };
 
   return (
+    
     <div className={classes.root}>
 
       <AppBar position="static" color="default">
@@ -99,5 +101,6 @@ export default function FullWidthTabs() {
         </TabPanel>
       </SwipeableViews>
     </div>
+   
   );
 }

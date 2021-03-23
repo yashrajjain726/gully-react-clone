@@ -4,7 +4,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
 import AppBar from '../component/mainPageComponent/mainAppBar'
 import Stepper from '../component/stepper'
-import Tabs from '../component/tabs'
+import Tabs from '../component/mainPageComponent/tabs'
 import BottomNavigation from '../component/mainPageComponent/bottomNavigation'       
 export default function FixedContainer() {
   return (

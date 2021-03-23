@@ -1,11 +1,13 @@
+import MainPage from './pages/MainPlaySection'
+// import MatchTicket from './pages/matchContainer'
 
-import MatchTicket from './pages/matchContainer'
 function App() {
   return (
     <div className="App">
-      <MatchTicket/>
+      <MainPage/>
     </div>
   );
 }
+
 
 export default App;

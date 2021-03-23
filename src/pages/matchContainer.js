@@ -5,9 +5,8 @@ import Container from '@material-ui/core/Container';
 import AppBar from '../component/eachMatchComponent/matchAppBar'
 import Stepper from '../component/stepper'
 import BottomNavigation from '../component/mainPageComponent/bottomNavigation'     
-import Tabs from '../component/eachMatchComponent/tabs'  
-import OptionPanel from '../component/eachMatchComponent/optionPanel'
-export default function FixedContainer() {
+import Tabs from '../component/eachMatchComponent/tabs';
+export default function FixedContainer(){
   return (
    
         <React.Fragment>
@@ -19,11 +18,6 @@ export default function FixedContainer() {
           <Stepper/>
           <center><MatchCard/></center>
           <Tabs/>
-          <OptionPanel/>
-          <OptionPanel/>
-            
-         
-          
         <BottomNavigation/>
           
       </Container>

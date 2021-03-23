@@ -6,13 +6,13 @@ import Select from '@material-ui/core/Select';
 import React from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-
 import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
     borderRadius:0,
+    
   },
   bullet: {
     display: 'inline-block',
@@ -61,14 +61,14 @@ export default function SimpleCard() {
           value={state.age}
           onChange={handleChange}
           inputProps={{
-            name: 'age',
+            name: 'runs',
             id: 'filled-age-native-simple',
           }}
         >
           <option aria-label="None" value="" />
-          <option value={10}>Ten</option>
-          <option value={20}>Twenty</option>
-          <option value={30}>Thirty</option>
+          <option value={10}>10</option>
+          <option value={20}>20</option>
+          <option value={30}>30</option>
         </Select>
       </FormControl>
 
