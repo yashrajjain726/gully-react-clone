@@ -8,7 +8,6 @@ import BottomNavigation from '../component/mainPageComponent/bottomNavigation'
 import Tabs from '../component/eachMatchComponent/tabs';
 export default function FixedContainer(){
   return (
-   
         <React.Fragment>
       <CssBaseline />
       
@@ -23,5 +22,7 @@ export default function FixedContainer(){
       </Container>
       </div>
     </React.Fragment>
+   
   );
 }
+

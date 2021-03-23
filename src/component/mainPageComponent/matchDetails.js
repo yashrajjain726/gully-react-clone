@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Button } from '@material-ui/core';
 import MatchContainer from '../../pages/matchContainer'
-import MainPlaySection from '../../pages/MainPlaySection'
+// import MainPlaySection from '../../pages/MainPlaySection'
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -75,5 +75,5 @@ export default function ComplexGrid() {
     </Router>
   );
 }
-<Route exact path="/matchDetails"><MatchContainer/></Route>
+<Route path="/matchDetails"><MatchContainer/></Route>
 
